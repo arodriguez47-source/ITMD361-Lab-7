@@ -6,13 +6,13 @@ body {
   background-image: url("../images/space.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #header {
   position: relative;
-  margin-top: 40px;
-  border-radius: 12px 12px 0px 0px; 
-  
+  border-radius: 12px 12px 0px 0px;
 }
 
 #header h1 {
@@ -23,10 +23,13 @@ body {
 }
 
 #planets {
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: fit-content;
+  width: 90%;
   height: fit-content;
+  border-collapse: collapse;
+  background-color: black;
 }
 
 #planets img {
